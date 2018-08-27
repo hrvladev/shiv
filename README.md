@@ -1,12 +1,32 @@
 # Shiv
 
-![shiv](https://svbtleusercontent.com/w15natoim2lezq.png)
+> Lisp is a shiv which comes in many forms. Anyone who uses this is probably crazy and dangerous. -- [If programming languages were weapons](https://i.imgur.com/vpgdPYB.jpg)
 
-## WTF is this :shit:!?
+Shiv is a Scheme interpreter written in Python which implements a subset of the [standard R5RS Scheme](http://www.schemers.org/Documents/Standards/R5RS/r5rs.pdf).
 
-* A Scheme interpreter in Python
-* A self-educational, hobby project
-* A project for [the Python course (edition 2016)](http://2016.fmi.py-bg.net/) in my university ([Sofia University “St. Kliment Ohridski”, The Faculty of Mathematics and Informatics (FMI)](https://www.fmi.uni-sofia.bg/en/)).
+It's created as a self-educational, hobby project for the [Python course](http://2016.fmi.py-bg.net/) in the [Faculty of Mathematics and Informatics (FMI), Sofia University “St. Kliment Ohridski”](https://www.fmi.uni-sofia.bg/en/).
+
+## Setting up
+
+1. Install Python 3.7.0 or later.
+
+2. Clone the repository.
+
+    ```sh
+    $ git clone https://github.com/hrvladev/shiv
+    ```
+
+3. Change the current working directory to `shiv`.
+
+    ```sh
+    $ cd shiv
+    ```
+
+4. Create a virtual environment.
+
+    ```sh
+    $ python3 -m venv env
+    ```
 
 ## Tell me more!
 
